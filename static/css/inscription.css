@@ -1,0 +1,25 @@
+/* PAGE ACCUEIL */
+
+main{
+    height: 25%;
+    width: 25%;
+    align-items: center;
+}
+
+#tab2{
+    background-color: green;
+}
+
+/* NAVBAR  */
+
+#nav{
+    word-spacing: 3em;
+    font-size: 320%;
+    background-color: blue;
+}
+
+.navbar_links{
+    color: white;
+    text-decoration: none;
+    margin-left: 1%;
+}

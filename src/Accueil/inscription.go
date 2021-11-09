@@ -7,9 +7,9 @@ import (
 	"text/template"
 )
 
-func Accueil(w http.ResponseWriter, r *http.Request) {
+func InscritpionPage(w http.ResponseWriter, r *http.Request) {
 
-	t, err := template.ParseFiles("template/layout.html", "template/Accueil.html", "template/navbar.html")
+	t, err := template.ParseFiles("template/layout.html", "template/inscription.html", "template/navbar.html")
 	if err != nil {
 		log.Fatalf("Template execution: %s", err)
 		return
