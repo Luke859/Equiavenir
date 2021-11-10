@@ -12,7 +12,7 @@ var tErr *template.Template
 
 func Accueil(w http.ResponseWriter, r *http.Request) {
 
-	t, err := template.ParseFiles("static/Accueil.html")
+	t, err := template.ParseFiles("template/Accueil.html", "template/navbar.html")
 	if err != nil {
 		log.Fatalf("Template execution: %s", err)
 		return
