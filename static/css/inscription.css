@@ -7,19 +7,53 @@ main{
 }
 
 #tab2{
-    background-color: green;
+    /* display: flex;
+    align-items: center; */
+}
+
+#searchInput{
+    margin-left: 79%;
+    margin-top: 10%;
+    padding: 10px 10px;
+    border-radius: 35px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.5);
+    width: 215%;
+    align-items: center;
+    font-size: 150%;
+}
+
+#logIn{
+    margin-left: 79%;
+    margin-top: 10%;
+    padding: 10px 10px;
+    border-radius: 35px;
+    background-color: black;
+    color: white;
+    width: 222.5%;
+    align-items: center;
+    font-size: 150%;
 }
 
 /* NAVBAR  */
 
 #nav{
-    word-spacing: 3em;
-    font-size: 320%;
-    background-color: blue;
+    /* word-spacing: 3em; */
+    font-size: 250%;
+    background-color: #FFC300;
+    margin-top:1%;
 }
 
 .navbar_links{
-    color: white;
+    color: black;
+    margin-left: 10%;
     text-decoration: none;
-    margin-left: 1%;
+    padding: 10px 10px;
+    font-weight: bold
+}
+
+
+/* PAGE INSCRIPTION */
+
+#create{
+    margin-left: 75%;
 }
