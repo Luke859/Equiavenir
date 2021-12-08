@@ -1,59 +1,95 @@
 /* PAGE ACCUEIL */
 
 main{
-    height: 25%;
-    width: 25%;
-    align-items: center;
-}
-
-#tab2{
-    /* display: flex;
-    align-items: center; */
-}
-
-#searchInput{
-    margin-left: 79%;
-    margin-top: 10%;
-    padding: 10px 10px;
-    border-radius: 35px;
-    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.5);
-    width: 215%;
-    align-items: center;
-    font-size: 150%;
-}
-
-#logIn{
-    margin-left: 79%;
-    margin-top: 10%;
-    padding: 10px 10px;
-    border-radius: 35px;
-    background-color: black;
-    color: white;
-    width: 222.5%;
-    align-items: center;
-    font-size: 150%;
+    
 }
 
 /* NAVBAR  */
+header {  
+    position: flex;
+    top: 0;
+    left: 0;
+    width: auto;
+    background-color: orange;
+    /* border: 1px solid black; */
+    opacity: 0.75;
+    padding: 40px 100px;
+    transition: 0,5;
+}
 
-#nav{
-    /* word-spacing: 3em; */
+header.sticky{
+    position: fixed;
+    width: 100%;
+    background: yellow;
+    transition: 0,5;
+}
+
+#nav {
+    position: flex;
     font-size: 250%;
-    background-color: #FFC300;
-    margin-top:1%;
+    justify-content: space-between;
 }
 
 .navbar_links{
     color: black;
-    margin-left: 10%;
     text-decoration: none;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+/* PAGE CONNEXION */
+
+#tableauLogIn{
+    position: flex;
+    background: linear-gradient( #DBC2AF 30%,orange  60%);
+    height: 100%;
+
+}
+
+#UserLogin{
+    position: flex;
+    align-items: center;
+    left: 75%;
+}
+
+#searchInput{
+    margin-left: 30%;
     padding: 10px 10px;
-    font-weight: bold
+    border-radius: 20px;
+    width: 40%;
+    margin-top: 5%;
+    align-items: center;
+    font-size: 150%;
+}
+
+#help{
+    margin-left: 30%;
+    margin-top: 1%;
+    text-decoration: none;
+}
+
+#mdp{
+    margin-left: 32%;
+    margin-top: 1%;
+    text-decoration: none;
+    color: black;
+}
+
+#create{
+    margin-top: 1%;
+    text-decoration: none;
+    color: black;
 }
 
 
-/* PAGE INSCRIPTION */
-
-#create{
-    margin-left: 75%;
+#logIn{
+    margin-top: 3%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgba(189, 189, 189, 0.5);
+    color: white;
+    width: 41%;
+    margin-left: 30%;
+    margin-bottom: 12%;
+    font-size: 150%;
 }

@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	accueil "./src/Accueil"
+	accueil "./src/go"
 )
 
 func main() {
