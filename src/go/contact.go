@@ -9,7 +9,7 @@ import (
 
 func ContactPage(w http.ResponseWriter, r *http.Request) {
 
-	t, err := template.ParseFiles("template/layout.html", "template/contact.html", "template/navbar.html", "template/footer.html")
+	t, err := template.ParseFiles("template/layout.html", "template/contact.html", "template/navbar.html")
 	if err != nil {
 		log.Fatalf("Template execution: %s", err)
 		return
