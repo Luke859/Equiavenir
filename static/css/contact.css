@@ -1,0 +1,39 @@
+/* PAGE contact */
+p{
+    position: flex;
+    font-size: 175%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+h1{
+    position: flex;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 5%;
+    font-style: italic;
+    font-family: gabriola;
+}
+
+#UserInfo{
+    position: flex;
+    padding: 20px 15px;
+    border-radius: 10px;
+    width: 34%;
+    align-items: center;
+    font-size: 150%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#inputMessage{
+    position: flex;
+    padding: 20px 15px;
+    border-radius: 10px;
+    font-size: 150%;
+    width: 81%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    height: 50%;
+}

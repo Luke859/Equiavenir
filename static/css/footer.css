@@ -1,0 +1,11 @@
+/* Footer */
+
+footer {  
+    position: flex;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  background-color:#C8CDA8;
+  color: white;
+  text-align: center;
+}
