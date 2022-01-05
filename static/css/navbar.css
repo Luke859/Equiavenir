@@ -4,14 +4,14 @@ header {
     width: auto;
     top: 0;
     left: 0;
-    background-color:#C8CDA8;
-    padding: 30px 20px;
+    background-color:#D1CDB9;
+    padding: 0px 20px;
 }
 
 header.sticky{
     position: fixed;
     width: 100%;
-    background: #C8CDA8;
+    background: #D1CDB9;
     transition: 0,5;
 }
 
@@ -45,8 +45,8 @@ img{
 
 button{
     border-radius: 20px;
-    padding: 10px 5px;
-    background-color: darkblue;
-    margin-left: 17%;
-    width: 11%;
+    padding: 10px;
+    background-color: #323366;
+    margin-left: 8%;
+    width: 15%;
 }

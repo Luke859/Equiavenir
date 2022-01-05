@@ -34,7 +34,6 @@ h1{
     width: 81%;
     margin-top: 5%;
     margin-left: 10%;
-    margin-bottom: 20%;
     height: 50%;
 }
 
@@ -44,7 +43,10 @@ h1{
     border-radius: 10px;
     width: 15%;
     color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;;
     align-items: center;
-    margin-left: 35%;
+    margin-left: 42%;
     font-size: 125%;
 }
+
