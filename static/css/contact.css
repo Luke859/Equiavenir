@@ -37,3 +37,14 @@ h1{
     margin-bottom: 20%;
     height: 50%;
 }
+
+#send{
+    position: flex;
+    padding: 20px 15px;
+    border-radius: 10px;
+    width: 15%;
+    color: white;
+    align-items: center;
+    margin-left: 35%;
+    font-size: 125%;
+}
