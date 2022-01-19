@@ -1,16 +1,14 @@
 /* PAGE contact */
 p{
     position: flex;
-    font-size: 175%;
+    font-size: 150%;
     text-align: center;
-    margin-top: 5%;
 }
 
 h1{
     position: flex;
     font-size: 400%;
     text-align: center;
-    margin-top: 5%;
     font-style: italic;
     font-family: gabriola;
 }
@@ -35,8 +33,12 @@ h1{
     margin-top: 5%;
     margin-left: 10%;
     height: 50%;
+    text-align:top;
 }
 
+#inputMessage::placeholder {
+
+}
 #send{
     position: flex;
     padding: 20px 15px;

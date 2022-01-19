@@ -1,9 +1,11 @@
 /* NAVBAR  */
+
 header {  
     position: flex;
     width: 100%;
     background-color:#D1CDB9;
-    height: auto;
+    margin: 0%;
+    padding: 0;
 }
 
 header.sticky{
@@ -40,7 +42,6 @@ header.sticky{
 img{
     vertical-align:middle;
     filter: brightness(0) invert(1);
-
 }
 
 button{

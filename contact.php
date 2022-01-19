@@ -12,7 +12,7 @@
     <input id="UserInfo" type="text" placeholder="Téléphone*" />
 </div>
 
-<input id="inputMessage" type="text" placeholder="Message*"/>
+<input id="inputMessage" type="text" placeholder="Message"/>
 <button id="send"> Envoyer </button>
 
 <?php $content = ob_get_clean(); ?> <!-- Fin du template -->

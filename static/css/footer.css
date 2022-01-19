@@ -1,5 +1,4 @@
 /* Footer */
-
 #contenu-footer {  
   position: flex;
   left: 0;
@@ -15,7 +14,6 @@
   font-size: 20px;
   width: 50px;
   text-decoration: none;
-  
 }
 
 .fa:hover {
@@ -25,19 +23,19 @@
 .fa-facebook {
   background: #3B5998;
   color: white;
-  width: auto;
+  width: 90px;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
-  width: auto;
+  width: 90px;
 }
 
 .fa-instagram {
   background: #f40083;
   color: white;
-  width: auto;
+  width: 90px;
 }
 
 #contenu-footer{
@@ -48,21 +46,24 @@
 
 #footer-services,
 #footer-reseaux,
-#footer-informations{
+#footer-informations,
+#footer-propos{
   margin-left: 10%;
 
 }
 
 #footer-services h3,
 #footer-reseaux h3,
-#footer-informations h3{
+#footer-informations h3, 
+#footer-propos h3{
   font-size: 20px;
   padding-bottom: 15px;
 }
 
 #liste-services,
 #liste-reseaux,
-#liste-informations {
+#liste-informations, 
+#liste-propos {
   list-style-type: none;
   font-size: 15px;
   margin-top: 5%;
@@ -74,13 +75,15 @@
 }
 
 #liste-services a,
-#liste-informations a{
+#liste-informations a,
+#liste-propos a{
   text-decoration: none;
   color: black;
 }
 
 #liste-services a:hover,
-#liste-informations a:hover{
+#liste-informations a:hover, 
+#liste-propos a:hover{
   text-decoration: none;
   color: gray;
 }

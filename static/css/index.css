@@ -1,17 +1,46 @@
 /* PAGE ACCUEIL */
+
 .fond-Accueil{
 background-image:url(Image/cheval.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-height: 100%;
+height: 150%;
 }
 
 .fond-Accueil h1{
     font-style: italic;
     font-family: gabriola;
-    font-size; 
+    font-size: 100px; 
+    text-align: center;
+    margin-top: 0%;
 }
 
 .fond-Accueil p{
+    font-size: 50px; 
+    text-align: center;
+}
 
+.btn_partage {
+    border-radius: 20px;
+    padding: 10px;
+    width: 15%;
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    text-align: center;
+}
+
+.btn_offre {
+    border-radius: 20px;
+    padding: 10px;
+    width: 15%;
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    text-align: center;
+}
+
+.buttons{
+    margin-left: 25%;
+    width: 90%;
 }

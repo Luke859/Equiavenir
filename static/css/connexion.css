@@ -1,8 +1,8 @@
 /* PAGE CONNEXION */
-
 #tableauLogIn{
     position: flex;
-    background: linear-gradient( #DBC2AF 30%,orange  60%);
+    /* background: linear-gradient( #DBC2AF 30%,orange  60%); */
+    background-color: white;
     height: 100%;
 
 }
@@ -13,7 +13,17 @@
     left: 75%;
 }
 
-#searchInput{
+#emailInput{
+    margin-left: 30%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 40%;
+    margin-top: 10%;
+    align-items: center;
+    font-size: 150%;
+}
+
+#passwordInput{
     margin-left: 30%;
     padding: 10px 10px;
     border-radius: 20px;

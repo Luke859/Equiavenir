@@ -4,17 +4,15 @@
 <?php ob_start(); ?>
 
 <div id="tableauLogIn">
-
     <div id="UserLogin">
-        <input id="searchInput" type="text" placeholder="Email" />
-        <input id="searchInput" type="text" placeholder="Password" />
+        <input id="emailInput" type="text" placeholder="Email" />
+        <input id="passwordInput" type="text" placeholder="Password" />
     </div>
     <div id="help"> 
         <a href="/inscription" id="create">Je n'ai pas de compte</a>
         <a href="/inscription" id="mdp">Mot de passe oublier</a>
     </div>
     <button id="logIn" type="submit" >Connexion</button>
-
 </div>
 
 <?php $content = ob_get_clean(); ?> <!-- Fin du template -->
