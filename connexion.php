@@ -1,5 +1,7 @@
-{{ define "body" }}
+<link rel="stylesheet" href="/static/css/connexion.css" type="text/css">
 
+<?php require('db_connect.php'); ?>
+<?php ob_start(); ?>
 
 <div id="tableauLogIn">
 
@@ -15,4 +17,6 @@
 
 </div>
 
-{{end}}
+<?php $content = ob_get_clean(); ?> <!-- Fin du template -->
+
+<?php require('template.php'); ?>

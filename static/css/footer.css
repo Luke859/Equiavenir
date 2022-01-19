@@ -1,22 +1,21 @@
 /* Footer */
 
-footer {  
+#contenu-footer {  
   position: flex;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color:#D1CDB9;
   color: white;
-  height: 0%;
+  height: auto;
 }
 
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
   width: 50px;
-  text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  
 }
 
 .fa:hover {
@@ -44,7 +43,7 @@ footer {
 #contenu-footer{
 
   display: flex;
-  padding: 50px 0 100px;
+  padding: 20px 0 50px;
 }
 
 #footer-services,
@@ -66,6 +65,7 @@ footer {
 #liste-informations {
   list-style-type: none;
   font-size: 15px;
+  margin-top: 5%;
 }
 
 #liste-services li,
