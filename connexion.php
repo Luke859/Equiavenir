@@ -9,8 +9,8 @@
         <input id="passwordInput" type="text" placeholder="Password" />
     </div>
     <div id="help"> 
-        <a href="/inscription" id="create">Je n'ai pas de compte</a>
-        <a href="/inscription" id="mdp">Mot de passe oublier</a>
+        <a href="inscription.php" id="create">Je n'ai pas de compte</a>
+        <a href="#" id="mdp">Mot de passe oublier</a>
     </div>
     <button id="logIn" type="submit" >Connexion</button>
 </div>

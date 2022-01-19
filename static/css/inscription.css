@@ -1,0 +1,68 @@
+#inscription
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    border-radius: 30px;
+    border: 2px solid;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.title
+{
+    font-family: signpainter, Arial;
+    font-weight: bold;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form input
+{
+    height: 40px;
+    margin-bottom: 13%;
+    width: 80%;
+}
+
+#conditions
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.text
+{
+    color: gray;
+    /* font-family: ; */
+}
+
+.btn-inscription
+{
+    width: 80%;
+    margin-top: 7%;
+    background-color: #dfdf00;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 45px;
+    margin-left: 10%;
+}
+
+#to-connexion
+{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.to-connexion
+{
+    color: black;
+    /* font-family: ; */
+}
