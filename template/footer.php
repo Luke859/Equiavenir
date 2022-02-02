@@ -25,7 +25,7 @@
         <ul id="liste-reseaux">
             <li><a href="#" class="fa fa-facebook"> facebook</a></li>
             <li><a href="#" class="fa fa-twitter"> Twitter</a></li>
-            <li><a href="https://www.instagram.com/equiavenir/?hl=fr" class="fa fa-instagram"> Instagram</a></li>
+            <li><a target="_blank" href='https://www.instagram.com/equiavenir/?hl=fr' class="fa fa-instagram"> Instagram</a></li>
         </ul>
     </div> 
     <div id="footer-propos">

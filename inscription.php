@@ -8,9 +8,9 @@
         <h1 class="title">INSCRIPTION</h1>
         <form onsubmit="return isValid(this)">
         <div class="form">
-            <input type="email" class="mail" placeholder="E-mail">
-            <input type="password" class="password" placeholder="Mot de passe" name="pwd">
-            <input type="password" class="password" placeholder="Confirmez votre mot de passe" name="pwd2">
+            <input type="email" class="mail" placeholder="E-mail" required>
+            <input type="password" class="password" placeholder="Mot de passe" name="pwd" required>
+            <input type="password" class="password" placeholder="Confirmez votre mot de passe" name="pwd2" required>
         </div>
         <div id="conditions">
             <input type="checkbox" class="conditions" name="conditions">
