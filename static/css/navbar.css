@@ -21,6 +21,7 @@ header.sticky{
     width: 100%;
     height: auto;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .navbar_links{
@@ -50,4 +51,11 @@ button{
     background-color: #323366;
     margin-left: 8%;
     width: 15%;
+}
+
+.disconnect
+{
+    border: none;
+    font-weight: bold;
+    font-size: medium;
 }
