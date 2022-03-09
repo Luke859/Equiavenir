@@ -6,14 +6,14 @@
 <div id="body">
     <div id="inscription">
         <h1 class="title">INSCRIPTION</h1>
-        <form onsubmit="return isValid(this)">
+        <form method="POST" action="inscription.php" id="form">
         <div class="form">
-            <input type="email" class="mail" placeholder="E-mail" required>
+            <input type="email" class="mail" placeholder="E-mail" name="mail" required>
             <input type="password" class="password" placeholder="Mot de passe" name="pwd" required>
             <input type="password" class="password" placeholder="Confirmez votre mot de passe" name="pwd2" required>
         </div>
         <div id="conditions">
-            <input type="checkbox" class="conditions" name="conditions">
+            <input type="checkbox" class="conditions" name="conditions" required>
             <label for="conditions" class="text">Je confirme avoir lu et accepté les conditions<br>générales et la politique de confidentialité</label>
         </div>
         <input type="submit" class="btn-inscription" name="btn-inscription" value="Inscription"></inp>
@@ -28,3 +28,27 @@
 <?php $content = ob_get_clean(); ?> <!-- Fin du template -->
 
 <?php require('template.php'); ?>
+
+
+<?php
+    if(isset($_POST['btn-inscription'])){
+        $email = $_POST['mail'];
+        $pwd = $_POST['pwd'];
+        $pwdVerif = $_POST['pwd2'];
+
+        if($pwd == $pwdVerif){
+            $pwd = password_hash($pwd, PASSWORD_BCRYPT);
+            try{
+                $result = $conn->prepare("INSERT INTO user (UserEmail, UserPwd) VALUES (?, ?);");
+                $result->execute(array($email, $pwd));
+            }catch(PDOException $e){
+                echo $e;
+            }
+            header('Location:http://equiavenir/connexion.php');
+        } else {
+            echo '<script>alert("Confirmation du mot de passe incorrect")</script>';
+        }
+
+    }
+
+?>

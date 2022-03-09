@@ -10,7 +10,6 @@
             <li><a href="#">Signaler un abus</a></li>
         </ul>
     </div>
-
     <div id="footer-services">
         <h3>NOS SERVICES</h3>
         <ul id="liste-services">
@@ -19,7 +18,6 @@
             <li><a href="/contact"> Contact </a></li>
         </ul>
     </div>
-
     <div id="footer-reseaux">
         <h3>SUIVEZ-NOUS!</h3>
         <ul id="liste-reseaux">
