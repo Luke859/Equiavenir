@@ -1,0 +1,38 @@
+.job-offer {
+    position: flex;
+    background-color: #D1CDB9;
+    border-radius: 10px;
+    width: 50%;
+    height: 16%;
+    margin-left: 25%;
+    padding: 30px 10px 10px 10px;
+    margin-top: 5%;
+    margin-bottom: 3000px;
+  }
+  
+  .job-offer .message {
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    height: 80%;
+    margin-left: 15%;
+    border-top: 1px;
+  }
+  
+  .job-offer p {
+    font-size: 150%;
+    text-align: center;
+    margin-top: 0%;
+  }
+  
+  .job-offer .delete {
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+  
+  .job-offer .check {
+    position: relative;
+    margin-left: 110%;
+    transform: scale(3);
+    vertical-align: middle;
+  }

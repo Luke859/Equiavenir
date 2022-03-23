@@ -22,7 +22,6 @@
             <br>
             <a href="/inscription" for="" class="text">Je n'ai pas de compte</a>
         </div>
-        
     </div>
 </div>
 

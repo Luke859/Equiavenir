@@ -1,7 +1,10 @@
 <link rel="stylesheet" href="/static/css/navbar.css" type="text/css">
 <div id="nav">
     <a href="/" class="navbar_links"> Menu </a>
-    <a href="/" class="navbar_links">Offres d'emploi</a>
+    <a href="offre.php" class="navbar_links">Offres d'emploi</a>
+    <div class="logo">
+      <img src="../static/css/Image/logoEquiavenir.png">
+    </div>
     <a href="share.php" class="navbar_links">Partager</a>
     <a href="contact.php" class="navbar_links"> Contact </a>
     <?php if(isset($_COOKIE['user_session']) == false){ ?>
@@ -14,4 +17,4 @@
         <!-- </form> -->
     <?php } ?>
 </div>
-<script src="/static/js/navbar animation.js"></script>
+<!-- <script src="/static/js/navbar animation.js"></script> -->

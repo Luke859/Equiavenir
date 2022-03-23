@@ -16,7 +16,7 @@ header.sticky{
 }
 
 #nav {
-    position: flex;
+    display: flex;
     font-size: 250%;
     width: 100%;
     height: auto;
@@ -59,3 +59,14 @@ button{
     font-weight: bold;
     font-size: medium;
 }
+
+.logo{
+    margin: 1rem;
+  }
+  
+  .logo img{
+    width : 150px;
+    height : 150px;
+    border-radius: 50%;
+  }
+  
