@@ -2,7 +2,14 @@
   overflow: auto;
   margin: 0 auto;
 }
-  
+
+h1 {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 60;
+  font-family: gabriola;
+}
 .share-offer {
   display: flex;
   width: 800px;
