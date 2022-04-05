@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="/static/css/offre.css" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 <?php require('db_connect.php'); ?>
 <?php ob_start(); ?>
@@ -11,17 +12,35 @@ $jobs = $job->fetchAll();
 if(isset($_GET['srch']) AND !empty($_GET['srch'])){
     $recherche =htmlspecialchars($_GET['srch']);
     $job = $conn->prepare('SELECT * FROM job WHERE JobName LIKE "%'.$recherche.'%" ORDER BY JobId DESC');
-    
     $job->execute();
 }
+
+// if(isset($_GET['location']) AND !empty($_GET['location'])){
+//     $location =htmlspecialchars($_GET['location']);
+//     $job = $conn->prepare('SELECT * FROM job WHERE Joblocation LIKE "%'.$location.'%" ORDER BY JobId DESC');
+//     $job->execute();
+// }
 ?>
 
 <div id="main-container">
-    <h1>Offre emploi</h1>  
     <div class="block_recherche">
+        <h1 class="title">Offres d'emploi</h1>  
         <form class="recherche" method="GET">
-            <input  type="search" name="srch" placeholder="recherche">
-            <input  type="submit" name="envoyer">
+        <select name="offre" class="form-select" aria-label="Default select example">
+                <option selected>Type de contrat</option>
+                <option value="1">CDI</option>
+                <option value="2">Stage</option>
+                <option value="3">CDD</option>
+                <option value="4">Alternance</option>
+            </select>
+            <select name="location" class="form-select" aria-label="Default select example">
+                <option selected>Localisation</option>
+                <option value="1">Nantes</option>
+                <option value="2">Bordeaux</option>
+                <option value="3">Lyon</option>
+            </select>
+            <input class="input_search" type="search" name="srch" placeholder="recherche">
+            <input class="input_button" type="submit" name="envoyer">
         </form>
     </div>
     <?php if($job->rowCount() > 0){?>
@@ -41,9 +60,8 @@ if(isset($_GET['srch']) AND !empty($_GET['srch'])){
             </div>
         <?php } ?>
     <?php } else {?>
-        Aucun résultat ...
-        <br>
-        Voici une liste d'offre disponible :
+        <h2 class="result">Aucun résultat ...</h2>
+        <h3 class="list">Voici une liste d'offre disponible :</h3>
         <?php foreach($jobs as $job) { ?>
             <div class="job-offer">
                 <form class="message" action="delete_post.php" method="POST">

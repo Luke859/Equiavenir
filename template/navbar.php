@@ -6,6 +6,7 @@
             <li><a href="/"> Annonces</a></li>
             <li><a href="offre.php">Offres d'emploi</a></li>
             <li><img class="logo" src="../static/css/Image/logoEquiavenir.png"></li>
+            <li><a href="actualités.php">Actualités</a></li>
             <li><a href="share.php">Partager</a></li>
             <li><a href="contact.php"> Contact </a></li>
         </ul>
