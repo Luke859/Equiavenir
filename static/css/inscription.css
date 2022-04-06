@@ -1,4 +1,82 @@
+#body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 #inscription
+{
+    border: 2px solid #969696;
+    border-radius: 18px;
+}
+
+#inscription h1
+{
+    padding: 20 20 0 20;
+}
+
+
+.CV
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2
+{
+    border-bottom: 2px solid grey;
+    width: 90%;
+}
+
+.dragNdrop
+{
+    border: 2px dashed #ADADAD;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    margin-top: 10;
+}
+
+
+.dragNdrop p 
+{
+    font-size: smaller;
+}
+
+
+.infos
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.inputs
+{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #inscription
 {
     display: flex;
     flex-direction: column;
@@ -42,9 +120,9 @@
 {
     color: gray;
     /* font-family: ; */
-}
+/* } */
 
-.btn-inscription
+/* .btn-inscription
 {
     width: 80%;
     margin-top: 7%;
@@ -65,4 +143,4 @@
 {
     color: black;
     /* font-family: ; */
-}
+/* } */
