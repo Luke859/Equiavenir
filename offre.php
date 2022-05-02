@@ -78,6 +78,14 @@ if(isset($_GET['srch']) AND !empty($_GET['srch'])){
             </div>
         <?php } ?>
     <?php } ?>
+    <ul id="pagination-clean">
+        <li class="previous-off">« Précédent</li>
+        <li class="active">1</li>
+        <li><a href="/?page=2">2</a></li>
+        <li><a href="/?page=3">3</a></li>
+        <li><a href="/?page=4">4</a></li>
+        <li class="next"><a href="/?page=2">Suivant »</a></li>
+    </ul>
 </div>
 
 <?php $content = ob_get_clean(); ?> <!-- Fin du template -->

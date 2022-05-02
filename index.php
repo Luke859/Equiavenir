@@ -9,8 +9,8 @@
     <h1>Equiavenir</h1>
     <p>La 1ère agence d'intérim en ligne dans la filière équine</p>
     <div class="buttons">
-        <button><a href="/" class="btn_offre"> Offres d'emploi</a></button>
-        <button><a href="/" class="btn_partage"> Partager une offre</a></button>
+        <button><a href="offre.php" class="btn_offre"> Offres d'emploi</a></button>
+        <button><a href="share.php" class="btn_partage"> Partager une offre</a></button>
     </div>
 </div>
 

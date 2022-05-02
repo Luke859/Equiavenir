@@ -13,9 +13,9 @@
     <div id="footer-services">
         <h3>NOS SERVICES</h3>
         <ul id="liste-services">
-            <li><a href="/Find"> Find offer </a></li>
-            <li><a href="/Share"> Share offer </a></li>
-            <li><a href="/contact"> Contact </a></li>
+            <li><a href="#"> Annonces </a></li>
+            <li><a href="/Offre"> Offre d'emploi </a></li>
+            <li><a href="/Share"> Partager </a></li>
         </ul>
     </div>
     <div id="footer-reseaux">
@@ -29,8 +29,9 @@
     <div id="footer-propos">
         <h3>À PROPOS</h3>
         <ul id="liste-propos">
-            <li><a href="#" > Blog</a></li>
-            <li><a href="#"> Contactez-nous</a></li>
+            <li><a href="/actualités" > Actualités</a></li>
+            <li><a href="/contact"> Contactez-nous</a></li>
+            <li><a href="#" > Qui sommes nous ?</a></li>
         </ul>
     </div>   
 </div>

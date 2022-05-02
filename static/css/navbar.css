@@ -16,9 +16,7 @@ header {
 .navbar_links{
     list-style: none;
     color: black;
-    font-weight: bold;
-    font-style: italic;
-    font-family: gabriola;
+    font-family: SignPainter;
 }
 
 .navbar_links li{
@@ -26,20 +24,18 @@ header {
     padding: 0px 75px;
     text-decoration: none;
     color: black;
-    font-weight: bold;
-    font-size: 150%;
+    font-size: 120%;
 }
 
 .navbar_links li a{
     transition: all 0.3 ease 0s;
     text-decoration: none;
     color: black;
-    font-weight: bold;
     font-size: 150%;
 }
 
 .navbar_links li a:hover{
-    color: #323366;
+    color: white;
 }
 
 .navbar_button{
@@ -58,7 +54,6 @@ button{
     border-radius: 20px;
     background-color: #323366;
     border: none;
-    margin-left: 160px;
 }
 
 .disconnect

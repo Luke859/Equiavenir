@@ -9,16 +9,18 @@ overflow: hidden;
 }
 
 .fond-Accueil h1{
-    font-style: italic;
-    font-family: gabriola;
-    font-size: 100px; 
+    font-family: Tahoma;
+    font-size: 120px; 
     text-align: center;
-    margin-top: 0%;
+    padding-top: 100px;
+    color: white;
 }
 
 .fond-Accueil p{
-    font-size: 50px; 
+    font-family: Tahoma;
+    font-size: 60px; 
     text-align: center;
+    color: white;
 }
 
 .btn_partage {
@@ -42,6 +44,6 @@ overflow: hidden;
 }
 
 .buttons{
-    margin-left: 25%;
-    width: 90%;
+    text-align: center;
+    padding-top: 50px;
 }

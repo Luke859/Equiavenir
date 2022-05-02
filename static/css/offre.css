@@ -74,3 +74,16 @@
 .list{
   padding: 100px 0px 0px 20px;
 } 
+
+#pagination-clean {
+  display: flex;
+  float: right;
+  padding: 10px;
+}
+ 
+#pagination-clean li
+{
+  list-style:none;
+  margin-left: 20px;
+}
+ 

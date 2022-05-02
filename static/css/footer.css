@@ -5,7 +5,7 @@
   bottom: 0;
   width: 100%;
   background-color:#D1CDB9;
-  color: white;
+  color: black;
   height: auto;
 }
 
@@ -70,7 +70,8 @@
 }
 
 #liste-services li,
-#liste-informations li{
+#liste-informations li,
+#liste-propos li{
   padding: 5px 0;
 }
 
