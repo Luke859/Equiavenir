@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color:#D1CDB9;
-    padding: 20px;
+    padding: 0px 20px 0px 0px;
 }
 
 .navbar_links{
@@ -21,7 +21,7 @@ header {
 
 .navbar_links li{
     display: inline-block;
-    padding: 0px 75px;
+    padding: 0px 20px;
     text-decoration: none;
     color: black;
     font-size: 120%;
@@ -38,22 +38,46 @@ header {
     color: white;
 }
 
-.navbar_button{
-    color: white;
-    font-size: 150%;
-    text-decoration: none;
+.logo{
+    display: flex;
+    margin: 1rem;
+    top: 500px;
 }
+
+.logo img{
+    width : 100px;
+    height : 100px;
+    border-radius: 50%;
+}
+
+.connect a{
+    background-color: #323366;
+}
+
+.navbar_button{
+    font-size: 150%;
+    display: inline-block;
+    padding: 10px 25px;    
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    box-shadow: 0 9px #999;
+}
+
+.navbar_button:active {
+    background-color: #323366;
+    opacity: 0.8;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 .navbar_button img{
     vertical-align:middle;
     filter: brightness(0) invert(1);
-}
-
-button{
-    padding: 10px 25px;    
-    border-radius: 20px;
-    background-color: #323366;
-    border: none;
 }
 
 .disconnect
@@ -61,16 +85,6 @@ button{
     border: none;
     font-weight: bold;
     font-size: medium;
-}
-
-.navbar_links .logo{
-    position: absolute;
-    top: 80px;
-    background-color: #D1CDB9;
-    width : 100px;
-    height : 100px;
-    border-radius: 50%;
-    cursor: pointer;  
 }
 
   
