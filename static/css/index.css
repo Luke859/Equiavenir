@@ -5,6 +5,7 @@ background-image:url(Image/cheval.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 height: 150%;
+overflow: hidden;
 }
 
 .fond-Accueil h1{

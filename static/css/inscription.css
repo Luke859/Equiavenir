@@ -26,7 +26,7 @@
     justify-content: space-between;
 }
 
-h2
+.CV h2
 {
     border-bottom: 2px solid grey;
     width: 90%;
@@ -40,6 +40,7 @@ h2
     flex-direction: column;
     align-items: center;
     width: 90%;
+    height: 25vh;
     justify-content: center;
     margin-top: 10;
 }
@@ -55,24 +56,60 @@ h2
 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-left: 5%;
     justify-content: space-between;
-    background-color: red;
 }
+
+.infos h2
+{
+    border-bottom: 2px solid grey;
+    width: 95%; 
+    margin-bottom: 20;  
+}
+
 
 .inputs
 {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputs span
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20;
+}
+
+.inputs span input
+{
+    border: none;
+    background-color: #F2F2F2;
+    width: 65%;
+    margin-right: 20;
+}
+
+.radioInput
+{
+    display: flex;
+    width: 70%;
+}
+
+.radioInput label
+{
+    margin-right: 40;
 }
 
 
-
-
-
-
-
-
-
+.inputs span select
+{
+    border: none;
+    background-color: #F2F2F2;
+    width: 65%;
+    margin-right: 20;
+}
 
 
 

@@ -32,6 +32,39 @@
                     <span><label>Mobile</label><input type="text"></span>
                 </div>
             </div>
+
+            <div class="infos">
+                <h2>Mon adresse</h2>
+                <div class="inputs">
+                    <span>
+                        <label>Pays*</label>
+                        <select>
+                            <option>----</option>
+                            <option>France</option>
+                            <option>England</option>
+                            <option>Italia</option>
+                            <option>España</option>
+                            <option>Belgium</option>
+                            <option>United States</option>
+                            <option>Canada</option>
+                            <option>Russia</option>
+                            <option>Austria</option>
+                            <option>Finland</option>
+                            <option>Germany</option>
+                            <option>Scotland</option>
+                        </select>
+                    </span>
+                    <span><label>Code Postal*</label><input type="text"></span>
+                </div>
+            </div>
+            
+            <div class="infos">
+                <h2>Mon espace candidat</h2>
+                <div class="inputs">
+                    <span><label>Mot de passe*</label><input type="password"></span>
+                    <span><label>Confirmer le mot de passe*</label><input type="password"></span>
+                </div>
+            </div>
         </form>
     </div>
 

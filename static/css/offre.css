@@ -1,0 +1,76 @@
+#main-container{
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  padding: 50px;
+  color:#D1CDB9;
+  font-size: bold;
+}
+
+.block_recherche{
+  position: flex;
+  background-image:url(Image/cheval2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75%;
+  overflow: hidden;
+
+}
+
+.recherche{
+  text-align: center;
+  margin: 50px 30% 100px 30%;
+  background-color:#D1CDB9;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.form-select{
+  margin-bottom: 20px;
+}
+
+.input_search{
+  border-radius: 5px;
+  width: 40%;
+  padding: 5px 10px 5px 5px;
+  border: none;
+}
+
+.input_button{
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+}
+
+.job-offer {
+  position: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 40px;
+  height: auto;
+  /* margin: 50px 0px 50px 0px; */
+  text-align: left;
+}
+
+.job-offer .message {
+  position: flex;
+  margin-left: 40%;
+
+}
+
+.job-offer .delete {
+  float: right;
+  height: 25px;
+  width: 25px;
+}
+
+.result{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.list{
+  padding: 100px 0px 0px 20px;
+} 
