@@ -45,13 +45,13 @@
                             <option>England</option>
                             <option>Italia</option>
                             <option>España</option>
-                            <option>Belgium</option>
+                            <option>Belgique</option>
                             <option>United States</option>
                             <option>Canada</option>
-                            <option>Russia</option>
-                            <option>Austria</option>
-                            <option>Finland</option>
-                            <option>Germany</option>
+                            <option>Россия</option>
+                            <option>Österreich</option>
+                            <option>Suomi</option>
+                            <option>Deutschland</option>
                             <option>Scotland</option>
                         </select>
                     </span>
