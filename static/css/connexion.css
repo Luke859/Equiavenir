@@ -1,66 +1,86 @@
 /* PAGE CONNEXION */
-#tableauLogIn{
-    position: flex;
-    /* background: linear-gradient( #DBC2AF 30%,orange  60%); */
-    background-color: white;
-    height: 100%;
-
-}
-
-#UserLogin{
-    position: flex;
-    align-items: center;
-    left: 75%;
-}
-
-#emailInput{
-    margin-left: 30%;
-    padding: 10px 10px;
+.connexion
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     border-radius: 20px;
-    width: 40%;
-    margin-top: 10%;
-    align-items: center;
-    font-size: 150%;
-}
-
-#passwordInput{
-    margin-left: 30%;
-    padding: 10px 10px;
-    border-radius: 20px;
-    width: 40%;
+    border: 2px solid;
+    border-color: gray;
+    margin: auto;
+    margin-bottom: 5%;
+    top: 10%;
     margin-top: 5%;
+}
+
+.title
+{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    font-family: signpainter, Arial;
+    font-weight: bold;
+    color: #323366;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.form input
+{
+    display: flex;
+    border: none;
+    background-color: lightgray;
+    height: 30px;
+    width: 90%;
+}
+
+.form p {
     font-size: 150%;
+    font-weight: bold;
 }
 
-#help{
-    margin-left: 30%;
-    margin-top: 1%;
-    text-decoration: none;
+#conditions
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
-#mdp{
-    margin-left: 32%;
-    margin-top: 1%;
-    text-decoration: none;
-    color: black;
+.text
+{
+    color: gray;
+    /* font-family: ; */
 }
 
-#create{
-    margin-top: 1%;
-    text-decoration: none;
-    color: black;
-}
-
-
-#logIn{
-    margin-top: 3%;
-    padding: 10px 10px;
-    border-radius: 20px;
-    background-color: rgba(189, 189, 189, 0.5);
+.btn-connexion
+{
+    width: 40%;
+    margin-top: 7%;
+    background-color: #323366;
     color: white;
-    width: 41%;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5%;
     margin-left: 30%;
-    margin-bottom: 12%;
-    font-size: 150%;
+}
+
+#to-home
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.to-home
+{
+    color: white;
 }

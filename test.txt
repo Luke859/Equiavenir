@@ -1,0 +1,15 @@
+<?php foreach($jobs as $job) { ?>
+            <div class="job-offer">
+                <form class="message" action="delete_post.php" method="POST">
+                    <input class="id" type="hidden" name="id" value="<?php echo $job['JobId'] ?>"/>
+                    <input class="delete" type="image" src="./static/css/Image/croix.png" height="30" width="30"/>
+                    <h1><?php echo $job['JobName'] ?></h1>
+                    <h4><?php echo $job['JobLocation'] ?></h4>
+                    <br>
+                    <h2>Type de contrat : <?php echo $job['JobTitle']?></h2>
+                    <br>
+                    <h2>Temps : <?php echo $job['JobDate']?> au <?php echo $job['JobDuration'] ?></h2>
+                    <!-- <p><?php echo $job['JobDescription'] ?></p> -->
+                </form>
+            </div>
+        <?php } ?>
