@@ -12,6 +12,7 @@
         <div class="buttons">
             <a href="#" class="btn_candidat"> Espace candidat</a>
             <a href="#" class="btn_recruteurs"> Espace recruteurs</a>
+        </div>
     </div>
 </div>
 

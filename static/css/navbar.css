@@ -68,6 +68,10 @@ header {
     box-shadow: 0 9px #999;
 }
 
+.navbar_button:hover{
+    color: white;
+}
+
 .navbar_button:active {
     background-color: #323366;
     opacity: 0.8;

@@ -94,7 +94,7 @@
         </div>
         <h1 class="suggestions_title">Vos suggestions</h1> 
         <div class="block_suggestions">
-            <button><a href="contact.php" class="suggestions_button"> <img src="https://img.icons8.com/small/24/000000/light.png" color="YELLOW"/>SUGGEREZ VOS IDEES DE SUJETS </a></button>
+           <a href="contact.php" class="suggestions_button"> <img src="https://img.icons8.com/small/24/000000/light.png" color="YELLOW"/>SUGGEREZ VOS IDEES DE SUJETS </a>
         </div>
 
 </div>
