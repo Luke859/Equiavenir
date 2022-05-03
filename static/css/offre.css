@@ -6,7 +6,8 @@
 .title {
   padding: 50px;
   color:#D1CDB9;
-  font-size: bold;
+  font-size: 400%;
+  font-family: Tahoma;
 }
 
 .block_recherche{
@@ -77,7 +78,6 @@
 
 #pagination-clean {
   display: flex;
-  float: right;
   padding: 10px;
 }
  

@@ -3,18 +3,23 @@
 <?php require('db_connect.php'); ?>
 <?php ob_start(); ?>
 <h1>Nous contacter</h1>
-<p>Vous avez une question précise ? Un problème ? Contactez-nous rapidement sur le chat ou par email à l'adresse equiavenir@gamil.com </p>
+<p>Vous avez une question précise ? Un problème ? Contactez-nous rapidement sur le chat ou par email à l'adresse equiavenir@gmail.com </p>
 
 <form action="https://formsubmit.co/equiavenir@gmail.com" method="POST"  enctype="multipart/form-data">
     <input id="UserInfo" type="text" placeholder="Nom*" name="Nom" required/>
     <input id="UserInfo" type="text" placeholder="Prénom*" name="prenom" required/>
     <input id="UserInfo" type="text" placeholder="E-mail*" name="mail" required/>
     <input id="UserInfo" type="text" placeholder="Téléphone*" name="tel" required/>
-    <input id="inputMessage" type="text" placeholder="Message" name="message" required/>
+    <textarea id="inputMessage" placeholder="Message" required></textarea>
     <input type="hidden" name="_next" value="http://equiavenir/contact.php">
     <input type="submit" id="send" name="submit" value="Envoyer"/>
 </form>
 
+<div class="equipe"> 
+    <p></p> 
+    <h1>Notre équipe</h1>
+    <img class="image" src="../static/css/Image/groupe.PNG">
+</div>
 
 <?php $content = ob_get_clean(); ?> <!-- Fin du template -->
 

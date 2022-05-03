@@ -20,7 +20,7 @@
         <div id="to-home">
             <label for="to-home" class="text">J'ai oublié mon mot de passe</label>
             <br>
-            <a href="/inscription" for="" class="text">Je n'ai pas de compte</a>
+            <a href="/inscriptionCandidat.php" for="" class="text">Je n'ai pas de compte</a>
         </div>
         
     </div>

@@ -6,10 +6,9 @@
     <nav>
         <ul class="navbar_links">
             <li><a href="/"> Accueil </a></li>
-            <li><a href="/"> Annonces</a></li>
             <li><a href="offre.php">Offres d'emploi</a></li>
-            <li><a href="actualités.php">Actualités</a></li>
             <li><a href="share.php">Partager</a></li>
+            <li><a href="actualités.php">Actualités</a></li>
             <li><a href="contact.php"> Contact </a></li>
         </ul>
 
