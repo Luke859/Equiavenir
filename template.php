@@ -8,12 +8,8 @@
 </head>
 <body>
     <style>body{margin:0;}</style>
-    <header>
     <?php include('template/navbar.php'); ?>
-    </header>
     <?= $content ?>
-    <footer>
     <?php include('template/footer.php'); ?> 
-    </footer> 
 </body>
 </html>

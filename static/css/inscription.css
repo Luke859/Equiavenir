@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin: 20px 0 20px 0;
 }
 
 #inscription
@@ -111,6 +112,20 @@
     margin-right: 20;
 }
 
+.submit
+{
+    width: 40%;
+    margin-top: 7%;
+    background-color: #323366;
+    color: white;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
 
 
 /* #inscription

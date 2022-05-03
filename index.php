@@ -5,12 +5,13 @@
 <?php require('db_connect.php'); ?>
 
 <?php ob_start(); ?>
-<div class="fond-Accueil">
-    <h1>Equiavenir</h1>
-    <p>La 1ère agence d'intérim en ligne dans la filière équine</p>
-    <div class="buttons">
-        <button><a href="/" class="btn_offre"> Offres d'emploi</a></button>
-        <button><a href="/" class="btn_partage"> Partager une offre</a></button>
+<div class="main_block">
+    <div class="fond-Accueil">
+        <h1>Equiavenir</h1>
+        <p>La 1ère agence d'intérim en ligne dans la filière équine</p>
+        <div class="buttons">
+            <a href="inscriptionCandidat.php" class="btn_candidat"> Espace candidat</a>
+            <a href="inscriptionRecruteur" class="btn_recruteurs"> Espace recruteurs</a>
     </div>
 </div>
 
